@@ -41,7 +41,7 @@ const Hero: React.FC<Props> = ({ darkMode }) => {
         {/* BOTONES */}
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           <a
-            href="https://serviciosdigitales.pw/"
+            href="https://github.com/IngAlim2023"
             className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow-lg transition"
           >
             Ver Proyectos
@@ -51,7 +51,7 @@ const Hero: React.FC<Props> = ({ darkMode }) => {
             href="mailto:jorgeeporrassandoval@gmail.com"
             className={`px-8 py-3 rounded-lg shadow-lg transition border
             ${
-            darkMode
+              darkMode
                 ? "bg-gray-800 hover:bg-gray-700 text-white border-gray-700"
                 : "bg-white hover:bg-gray-50 text-gray-900 border-gray-300"
             }`}
@@ -60,14 +60,15 @@ const Hero: React.FC<Props> = ({ darkMode }) => {
           </a>
 
           <a
-            href="/JorgePorrasCV.pdf"
-            download
+            href="/JorgePorras/JorgePorrasCV.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className={`px-8 py-3 rounded-lg shadow-lg transition flex items-center gap-2 border
-    ${
-      darkMode
-        ? "bg-gray-800 hover:bg-gray-700 text-white border-gray-700"
-        : "bg-white hover:bg-gray-50 text-gray-900 border-gray-300"
-    }`}
+                ${
+                  darkMode
+                    ? "bg-gray-800 hover:bg-gray-700 text-white border-gray-700"
+                    : "bg-white hover:bg-gray-50 text-gray-900 border-gray-300"
+                }`}
           >
             <FaDownload />
             Descargar CV

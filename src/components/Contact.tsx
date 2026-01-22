@@ -69,8 +69,8 @@ export function Contact({ darkMode }: ContactProps) {
               darkMode ? "text-gray-300" : "text-gray-600"
             }`}
           >
-            ¿Tienes un proyecto, una idea o una oportunidad laboral?  
-            Me encantará conversar contigo.
+            ¿Tienes un proyecto, una idea o una oportunidad laboral? Me
+            encantará conversar contigo.
           </p>
         </motion.div>
 
@@ -126,9 +126,7 @@ export function Contact({ darkMode }: ContactProps) {
                       </a>
                     ) : (
                       <p
-                        className={
-                          darkMode ? "text-gray-300" : "text-gray-600"
-                        }
+                        className={darkMode ? "text-gray-300" : "text-gray-600"}
                       >
                         {info.value}
                       </p>
@@ -176,10 +174,12 @@ export function Contact({ darkMode }: ContactProps) {
 
             {/* CTA */}
             <a
-              href="mailto:jorgeeporrassandoval@gmail.com"
+              href="https://wa.me/573117840647?text=Hola%20Jorge,%20vi%20tu%20portafolio%20y%20me%20gustaría%20contactarte"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex justify-center items-center gap-2 px-6 py-3 rounded-lg
-              bg-blue-600 hover:bg-blue-700 text-white font-medium transition
-              shadow-lg hover:shadow-xl"
+                bg-blue-600 hover:bg-blue-700 text-white font-medium transition
+                shadow-lg hover:shadow-xl"
             >
               <Mail className="w-5 h-5" />
               Escríbeme
